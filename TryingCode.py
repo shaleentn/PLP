@@ -6,18 +6,25 @@
     #print(num)
 
 
-list = [3 , 2 , 5 , 6 , 0 , 7, 9]
-sum = 0
-sum1 = 0
-for elem in list:
- if (elem % 2 == 0):
+#list = [3 , 2 , 5 , 6 , 0 , 7, 9]
+#sum = 0
+#sum1 = 0
+#for elem in list:
+ #if (elem % 2 == 0):
 
-   sum = sum + elem
+  # sum = sum + elem
 
- continue
+ #continue
 
- if (elem % 3 == 0):
+ #if (elem % 3 == 0):
 
-    sum1 = sum1 + elem
+    #sum1 = sum1 + elem
 
-print(sum , end=" ")
+#print(sum , end=" ")
+#palindrome=lambda num:num**2
+#print(palindrome(8))
+
+x = 0
+for i in range(3):
+    x = x+i
+print(x)
