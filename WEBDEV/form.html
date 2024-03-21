@@ -9,24 +9,39 @@
             <form>
                 <label for="name">Name</label>
                 <input type="text" name="name" id="name" required><br>
+
+                <label for="dateofbirth" >Date Of Birth</label>
+                <input type="date" name="dateofbirth" id="dateofbirth" required><br>
+
                 <label for="address">Address</label>
                 <input type="text" name="address" id="address" required><br>
                 
                 <fieldset>
                     <legend>Gender</legend>
                     
-                    <input type="radio " name="female" value="Female">
-                    <input type="radio" name="male" value="Male">
-                    <input type="radio" name="other" value="Other">
+                   <input type="radio" name="female" id="female" value="female">
+                    <label for="female">Female</label>
+                    
+                    <input type="radio" name="male" id="male" value="male">
+                    <label for="male">Male</label>
+                   
+                    <input type="radio" name="other" id="other" value="other">
+                    <label for="other">Other</label>
                 </fieldset><br>
                 <label for="email">Email</label> 
-                <input type="text" name="email" id="email" required><br>
+                <input type="email" name="email" id="email" required><br>
+
                 <label for="phonenumber">Phone Number</label>
                 <input type="text" name="phonenumber" id="phonenumber" required><br>
+
                 <label for="course">Course</label>
-                <input type="text" name="course" id="course" required>
+                <input type="text" name="course" id="course" required><br>
+
+                <button type="submit">Register</button>
+
+                <button type="submit">Cancel</button>
             </form>
 
-        </section>>
+        </section>
     </body>
 </html>
